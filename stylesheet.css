@@ -1,15 +1,21 @@
-#box1 {
-  box-sizing: content-box;
-  width: 1600px;
-  padding: 220rem;
-  border: 0;
-  margin: 0;
-}
-.header-color {
+
+.top-header {
   background-color: #1aaac9;
   color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.gray-header {
+#top-header-h1 {
+  margin-left: 11%;
+  margin-bottom: 5px;
+
+}
+#top-header-h2 {
+  margin-left: 11%;
+  margin-right: 700px;
+  margin-top: 0px;
+}
+.second-header {
   background-color:	#E8E8E8;
 }
 h1 {
@@ -27,10 +33,19 @@ h3 {
 li {
   display: inline;
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar-links {
+  color: #383838;
+}
+.top-nav-bar {
+  margin-left: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 blockquote {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 21px;
 }
 a:link {
   text-decoration: none;
@@ -41,11 +56,25 @@ a:link {
 .body-copy {
   font-family: Arial, Helvetica, sans-serif;
 }
+article {
+color: #383838;
+  float: left;
+  width: 50%;
+  margin-left: 11%;
+}
 aside {
   float: right;
-  clear: left;
   font-family: Arial, Helvetica, sans-serif;
+  width: 20%;
+  margin-right: 10%;
+  margin-bottom: 7%;
 }
+.aside-image {
+  width: 100%;
+  margin: 0;
+}
+/*
+start comment out Morgan 01/21/20
 #box2 {
   box-sizing: content-box;
   width: 1600px;
@@ -60,12 +89,20 @@ aside {
   border: 0;
   margin: 0;
 }
+end comment out
+*/
 footer  {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  clear: both;
   background-color: #383838;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5%;
   text-align: center;
+}
+.footer-links {
+  color: white;
+}
+.footer-section {
+  margin: auto;
+  width: 50%;
 }
