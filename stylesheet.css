@@ -10,10 +10,14 @@
   margin-bottom: 5px;
 
 }
-#top-header-h2 {
+#subtitle {
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 11%;
-  margin-right: 700px;
+  margin-right: 750px;
   margin-top: 0px;
+  font-weight: 300;
+  font-size: 1.9rem;
+  font-style: italic;
 }
 .second-header {
   background-color:	#E8E8E8;
@@ -46,21 +50,27 @@ li {
 blockquote {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 21px;
+  margin-left: 1%
 }
 a:link {
   text-decoration: none;
 }
 .blue-text {
   color: #66e0ff;
+  line-height: 2rem;
 }
 .body-copy {
   font-family: Arial, Helvetica, sans-serif;
 }
 article {
-color: #383838;
+  color: #606060;
   float: left;
   width: 50%;
   margin-left: 11%;
+  line-height: 1.5rem;
+}
+.our-story-text {
+  color: #383838;
 }
 aside {
   float: right;
@@ -69,28 +79,23 @@ aside {
   margin-right: 10%;
   margin-bottom: 7%;
 }
+.aside-text {
+  padding-bottom: 2%;
+  line-height: 1.5rem;
+  color: #606060;
+}
 .aside-image {
   width: 100%;
   margin: 0;
 }
-/*
-start comment out Morgan 01/21/20
-#box2 {
-  box-sizing: content-box;
-  width: 1600px;
-  padding: 0;
-  border: 0;
-  margin: 0;
+.aside-links {
+  color: #66e0ff
 }
-#box3 {
-  box-sizing: content-box;
-  width: 1600px;
-  padding: 0;
-  border: 0;
-  margin: 0;
+.sidebar-caption {
+  padding-bottom: 2%;
+  line-height: 1.5rem;
+  color: #606060;
 }
-end comment out
-*/
 footer  {
   clear: both;
   background-color: #383838;
@@ -101,8 +106,19 @@ footer  {
 }
 .footer-links {
   color: white;
+  font-weight: 600;
+  font-size: .8rem;
+}
+.footer-paragraph {
+  font-size: .8rem;
+  line-height: 1.5rem;
+}
+.footer-logo {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .footer-section {
   margin: auto;
-  width: 50%;
+  width: 35%;
+
 }
