@@ -5,11 +5,6 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
-#top-header-h1 {
-  margin-left: 11%;
-  margin-bottom: 5px;
-
-}
 #subtitle {
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 11%;
@@ -22,25 +17,45 @@
 .second-header {
   background-color:	#E8E8E8;
 }
-h1 {
+.kitties-words {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 65px;
+  margin-left: 11%;
+  margin-bottom: 5px;
 }
-h2 {
-  color: white;
+.slinky-headline-text {
+  color: #383838;
   font-family: Arial, Helvetica, sans-serif;
 }
-h3 {
+.cat-ipsum-headline {
   color: #1aaac9;
   font-family: Arial, Helvetica, sans-serif;
 }
-li {
-  display: inline;
-  color: black;
+/*h3 {
+  color: #1aaac9;
   font-family: Arial, Helvetica, sans-serif;
-}
-.nav-bar-links {
+}*/
+/*li {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+}*/
+.nav-bar-links ul {
+  font-family: Arial, Helvetica, sans-serif;
   color: #383838;
+  display: inline;
+  text-decoration: none;
+}
+.nav-bar-links li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #383838;
+  display: inline;
+  text-decoration: none;
+}
+.nav-bar-links a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #383838;
+  display: inline;
+  text-decoration: none;
 }
 .top-nav-bar {
   margin-left: 8%;
@@ -52,9 +67,13 @@ blockquote {
   font-size: 21px;
   margin-left: 1%
 }
-a:link {
-  text-decoration: none;
+.slinky-list {
+  color: #606060;
+  font-family: Arial, Helvetica, sans-serif;
 }
+/*a:link {
+  text-decoration: none;
+}*/
 .blue-text {
   color: #66e0ff;
   line-height: 2rem;
@@ -62,15 +81,16 @@ a:link {
 .body-copy {
   font-family: Arial, Helvetica, sans-serif;
 }
-article {
+.main-content {
   color: #606060;
   float: left;
   width: 50%;
   margin-left: 11%;
   line-height: 1.5rem;
 }
-.our-story-text {
+.dark-gray-header {
   color: #383838;
+  font-family: Arial, Helvetica, sans-serif;
 }
 aside {
   float: right;
@@ -104,10 +124,26 @@ footer  {
   padding: 5%;
   text-align: center;
 }
-.footer-links {
+.footer-links ul {
   color: white;
   font-weight: 600;
   font-size: .8rem;
+  display: inline;
+  text-decoration: none;
+}
+.footer-links li {
+  color: white;
+  font-weight: 600;
+  font-size: .8rem;
+  display: inline;
+  text-decoration: none;
+}
+.footer-links a {
+  color: white;
+  font-weight: 600;
+  font-size: .8rem;
+  display: inline;
+  text-decoration: none;
 }
 .footer-paragraph {
   font-size: .8rem;
@@ -120,5 +156,4 @@ footer  {
 .footer-section {
   margin: auto;
   width: 35%;
-
 }
