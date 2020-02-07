@@ -1,6 +1,6 @@
 
 .top-header {
-  background-color: #1aaac9;
+  background-color: #1688A2;
   color: white;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -56,6 +56,8 @@
   color: #383838;
   display: inline;
   text-decoration: none;
+  padding: .5rem;
+  margin: .5rem;
 }
 .top-nav-bar {
   margin-left: 8%;
@@ -77,6 +79,14 @@ blockquote {
 .blue-text {
   color: #66e0ff;
   line-height: 2rem;
+}
+.hidden {
+  position: relative;
+  left: -1000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 0;
 }
 .body-copy {
   font-family: Arial, Helvetica, sans-serif;
@@ -144,6 +154,8 @@ footer  {
   font-size: .8rem;
   display: inline;
   text-decoration: none;
+  margin: .5rem;
+
 }
 .footer-paragraph {
   font-size: .8rem;
@@ -155,5 +167,5 @@ footer  {
 }
 .footer-section {
   margin: auto;
-  width: 35%;
+  width: 50%;
 }
